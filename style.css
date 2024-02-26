@@ -1,0 +1,17 @@
+.testimonial-container {
+  display: flex;
+  overflow: hidden;
+  margin: 0 -10px;
+}
+
+.testimonial-card {
+  flex: 0 0 600px; 
+  margin: 0 10px; 
+  overflow: hidden; 
+}
+
+.testimonial-card-center {
+  flex: 0 0 calc(100% - 20px); 
+  margin: 0 10px; 
+  overflow: hidden; 
+}

@@ -1,0 +1,459 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="asset/logo-Binar.svg" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Binar Car Rental</title>
+  </head>
+  <body>
+    <div class="bg-[#F1F3FF]">
+      <!-- NAVBAR -->
+      <header>
+        <nav>
+          <div class="container mx-auto">
+            <div class="flex justify-between py-4">
+              <div class="flex bg-[#0D28A6] w-[100px] mx-10"></div>
+              <div class="flex items-center sm:hidden">
+                <!-- Tombol Hamburger -->
+                <img src="asset/hamburger.png" height="24px" width="24px" />
+              </div>
+              <div class="hidden sm:flex items-center mx-4">
+                <ul class="flex items-center list-none">
+                  <li class="mx-2 hover:text-[#0C359E]">
+                    <a href="#service">Our Services</a>
+                  </li>
+                  <li class="mx-2 hover:text-[#0C359E]">
+                    <a href="#why-us">Why Us</a>
+                  </li>
+                  <li class="mx-2 hover:text-[#0C359E]">
+                    <a href="#testimonial">Testimonial</a>
+                  </li>
+                  <li class="mx-2 hover:text-[#0C359E]">
+                    <a href="#faq">FAQ</a>
+                  </li>
+                  <li
+                    class="mx-2 rounded text-white bg-[#5CB85F] hover:bg-[#379237] px-4 py-2"
+                  >
+                    <a href="#"> Register</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- HERO -->
+      <section class="mx-auto flex flex-col md:flex-row items-center mt-16">
+        <div class="md:w-1/2 mx-10">
+          <h1 class="text-4xl font-bold mb-4">
+            Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)
+          </h1>
+
+          <p class="text-gray-700 mb-6">
+            Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+            terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
+            untuk sewa mobil selama 24 jam.
+          </p>
+          <a
+            href="#"
+            class="mx-2 rounded text-white bg-[#5CB85F] hover:bg-[#379237] px-4 py-2"
+            >Mulai Sewa Mobil</a
+          >
+        </div>
+        <div class="md:w-1/2">
+          <img
+            src="asset/img_car.png"
+            alt="Gambar Mobil"
+            class="w-full h-auto rounded"
+          />
+        </div>
+      </section>
+    </div>
+
+    <!-- SERVICE -->
+    <div
+      id="service"
+      class="container mx-auto flex flex-col md:flex-row items-center mt-16"
+    >
+      <div class="md:w-1/2 mx-8 text-center">
+        <img src="asset/img_service.png" class="md:max-w-full mx-auto" />
+      </div>
+      <div class="md:w-1/2">
+        <h3 class="text-3xl font-bold mb-4">
+          Best Car Rental for any kind of trip in (Lokasimu)!
+        </h3>
+        <p class="mb-4">
+          Sewa mobil di (Lokasimu) bersama Binar Car Rental jaminan harga lebih
+          murah dibandingkan yang lain, kondisi mobil baru, serta kualitas
+          pelayanan terbaik untuk perjalanan wisata, bisnis, wedding, meeting,
+          dll.
+        </p>
+        <div class="flex flex-col gap-4">
+          <div class="flex items-center">
+            <img
+              src="asset/Ceklis.png"
+              alt="ikon-ceklis"
+              class="w-[1.5rem] h-[1.5rem]"
+            />
+            <p class="mx-3">Sewa Mobil Dengan Supir di Bali 12 Jam</p>
+          </div>
+          <div class="flex items-center">
+            <img
+              src="asset/Ceklis.png"
+              alt="ikon-ceklis"
+              class="w-[1.5rem] h-[1.5rem]"
+            />
+            <p class="mx-3">Sewa Mobil Lepas Kunci di Bali 24 Jam</p>
+          </div>
+          <div class="flex items-center">
+            <img
+              src="asset/Ceklis.png"
+              alt="ikon-ceklis"
+              class="w-[1.5rem] h-[1.5rem]"
+            />
+            <p class="mx-3">Sewa Mobil Jangka Panjang Bulanan</p>
+          </div>
+          <div class="flex items-center">
+            <img
+              src="asset/Ceklis.png"
+              alt="ikon-ceklis"
+              class="w-[1.5rem] h-[1.5rem]"
+            />
+            <p class="mx-3">Gratis Antar - Jemput Mobil di Bandara</p>
+          </div>
+          <div class="flex items-center">
+            <img
+              src="asset/Ceklis.png"
+              alt="ikon-ceklis"
+              class="w-[1.5rem] h-[1.5rem]"
+            />
+            <p class="mx-3">Layanan Airport Transfer / Drop In Out</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- WHY US -->
+    <div id="why-us" class="pt-16 lg:pt-28 px-5 lg:px-[8.5rem]">
+      <h5 class="text-xl font-bold mb-3">Why Us?</h5>
+      <p class="mb-4">Mengapa harus pilih Binar Rental Car</p>
+      <div class="flex flex-wrap -mx-4">
+        <!-- Card 1 -->
+        <div
+          class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8 transform transition duration-300 hover:scale-105 cursor-pointer"
+        >
+          <div class="p-6 rounded-lg border h-full">
+            <div class="mb-4">
+              <img src="asset/icon_complete.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold mb-2">Mobil Lengkap</h2>
+            <p class="text-gray-700">
+              Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+              terawat
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8 transform transition duration-300 hover:scale-105 cursor-pointer"
+        >
+          <div class="p-6 rounded-lg border h-full">
+            <div class="mb-4">
+              <img src="asset/icon_price.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold mb-2">Harga Murah</h2>
+            <p class="text-gray-700">
+              Harga murah dan bersaing, bisa bandingkan harga kami dengan rental
+              mobil lain
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8 transform transition duration-300 hover:scale-105 cursor-pointer"
+        >
+          <div class="p-6 rounded-lg border h-full">
+            <div class="mb-4">
+              <img src="asset/icon_24hrs.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold mb-2">Layanan 24 Jam</h2>
+            <p class="text-gray-700">
+              Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+              tersedia di akhir minggu
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="w-full md:w-1/2 lg:w-1/4 px-4 mb-8 transform transition duration-300 hover:scale-105 cursor-pointer"
+        >
+          <div class="p-6 rounded-lg border h-full">
+            <div class="mb-4">
+              <img src="asset/icon_professional.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold mb-2">Sopir Profesional</h2>
+            <p class="text-gray-700">
+              Sopir yang profesional, berpengalaman, jujur, ramah dan selalu
+              tepat waktu
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIAL -->
+    <div id="testimonial" class="sm:px-4 md:px-8 lg:px-16 xl:px-20 mt-8">
+      <div class="text-center mb-6">
+        <h1 class="text-xl font-bold mb-3">Testimonial</h1>
+        <p>Berbagai review positif dari para pelanggan kami</p>
+      </div>
+
+      <div
+        class="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"
+      >
+        <!-- Item 1 -->
+        <div
+          class="flex flex-col items-center h-full rounded-md bg-[#F1F3FF] p-4 sm:p-8 w-full sm:w-[calc(50%-8px)] mb-6"
+        >
+          <div class="flex items-center w-full mb-4">
+            <div class="flex justify-center">
+              <img
+                src="asset/img_photo.png"
+                alt="photo"
+                height="55px"
+                width="55px"
+              />
+            </div>
+            <div class="flex flex-col items-start w-[500px] mx-3">
+              <img
+                src="asset/Rate.png"
+                alt="Rating"
+                height="85px"
+                width="85px"
+                class="mb-2"
+              />
+              <p class="mb-4 text-sm">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <p class="font-medium">John Dee 32, Bromo</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div
+          class="flex flex-col items-center h-full rounded-md bg-[#F1F3FF] p-4 sm:p-8 w-full sm:w-[calc(50%-8px)] mb-6"
+        >
+          <div class="flex items-center w-full mb-4">
+            <div class="flex justify-center">
+              <img
+                src="asset/img_photo.png"
+                alt="photo"
+                height="55px"
+                width="55px"
+              />
+            </div>
+            <div class="flex flex-col items-start w-[500px] mx-3">
+              <img
+                src="asset/Rate.png"
+                alt="Rating"
+                height="85px"
+                width="85px"
+                class="mb-2"
+              />
+              <p class="mb-4 text-sm">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod”
+              </p>
+              <p class="font-medium">John Dee 32, Bromo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center mt-4 gap-4 lg:gap-8">
+        <!-- Tombol Previous -->
+        <button
+          type="button"
+          class="flex items-end justify-center h-full cursor-pointer group focus:outline-none"
+          data-carousel-prev
+        >
+          <span
+            class="group inline-flex items-center justify-center bg-white hover:bg-[#5CB85F] active:bg-[#428745] w-10 h-10 rounded-full border-2 border-slate-400"
+          >
+            <svg
+              class="w-4 h-4 text-slate-800 group-hover:text-white dark:text-gray-800"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 1 1 5l4 4"
+              />
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+
+        <!-- Tombol Next -->
+        <button
+          type="button"
+          class="flex items-center justify-center h-full cursor-pointer group focus:outline-none"
+          data-carousel-next
+        >
+          <span
+            class="group inline-flex items-center justify-center bg-white hover:bg-[#5CB85F] active:bg-[#428745] w-10 h-10 rounded-full border-2 border-slate-400"
+          >
+            <svg
+              class="w-4 h-4 group-hover:text-white text-slate-800 dark:text-gray-800"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 6 10"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 9 4-4-4-4"
+              />
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- SEWA MOBIL -->
+    <div class="bg-[#0D28A6] mx-12 p-4 sm:p-8 mt-8 mb-8 rounded-lg">
+      <div class="text-center">
+        <h1 class="text-white text-2xl sm:text-3xl font-bold mt-4">
+          Sewa Mobil di (Lokasimu) Sekarang
+        </h1>
+        <p class="text-white font-light mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <button
+          class="rounded text-white bg-[#5CB85F] hover:bg-[#379237] px-4 py-2 mt-4"
+        >
+          Mulai Sewa Mobil
+        </button>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div id="faq" class="flex flex-col lg:flex-row mx-10 mb-6">
+      <div class="lg:w-1/2 lg:pr-4">
+        <div class="flex flex-col">
+          <h1 class="text-xl font-bold mb-5">Frequently Asked Question</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+      </div>
+
+      <div class="lg:w-1/2 lg:pl-4">
+        <div class="bg-white rounded-lg border mb-2 p-2">
+          <div class="accordion-header flex items-center justify-between h-10">
+            <span>Apa saja syarat yang dibutuhkan?</span>
+            <i class="bx bxs-chevron-down"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg border mb-2 p-2">
+          <div class="accordion-header flex items-center justify-between h-10">
+            <span>Berapa hari minimal sewa mobil lepas kunci?</span>
+            <i class="bx bxs-chevron-down"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg border mb-2 p-2">
+          <div class="accordion-header flex items-center justify-between h-10">
+            <span>Berapa hari sebelumnya sabaiknya booking sewa mobil?</span>
+            <i class="bx bxs-chevron-down"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg border mb-2 p-2">
+          <div class="accordion-header flex items-center justify-between h-10">
+            <span>Apakah Ada biaya antar-jemput?</span>
+            <i class="bx bxs-chevron-down"></i>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg border p-2">
+          <div class="accordion-header flex items-center justify-between h-10">
+            <span>Bagaimana jika terjadi kecelakaan</span>
+            <i class="bx bxs-chevron-down"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mx-6 mt-10 mb-10"
+    >
+      <div class="flex flex-col gap-4 mx-5">
+        <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+        <p>binarcarrental@gmail.com</p>
+        <p>081-233-334-808</p>
+      </div>
+      <div class="flex flex-col gap-4 mx-5">
+        <a href="#service" class="hover:text-[#0C359E]">Our Services</a>
+        <a href="#why-us" class="hover:text-[#0C359E]">Why Us</a>
+        <a href="#testimonial" class="hover:text-[#0C359E]">Testimonial</a>
+        <a href="#faq" class="hover:text-[#0C359E]">FAQ</a>
+      </div>
+      <div class="flex flex-col items-start gap-4 mx-5">
+        <p>Connect with us</p>
+        <div class="flex gap-4">
+          <a href="#" class="bg-[#0C359E] hover:bg-[#387ADF] p-2 rounded-full">
+            <i class="bx bxl-facebook-circle text-white"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/academybinar/"
+            class="bg-[#0C359E] hover:bg-[#387ADF] p-2 rounded-full"
+          >
+            <i class="bx bxl-instagram-alt text-white"></i>
+          </a>
+          <a href="#" class="bg-[#0C359E] hover:bg-[#387ADF] p-2 rounded-full">
+            <i class="bx bxl-twitter text-white"></i>
+          </a>
+          <a href="#" class="bg-[#0C359E] hover:bg-[#387ADF] p-2 rounded-full">
+            <i class="bx bx-envelope text-white"></i>
+          </a>
+          <a href="#" class="bg-[#0C359E] hover:bg-[#387ADF] p-2 rounded-full">
+            <i class="bx bxl-twitch text-white"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-4 mx-5">
+        <p>Copyright Binar 2024</p>
+        <img
+          src="asset/logo-Binar.svg"
+          alt="Logo Binar"
+          height="40px"
+          width="40px"
+        />
+      </div>
+    </div>
+  </body>
+</html>
