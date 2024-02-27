@@ -5,13 +5,33 @@
 }
 
 .testimonial-card {
-  flex: 0 0 600px; 
-  margin: 0 10px; 
-  overflow: hidden; 
+  flex: 0 0 600px;
+  margin: 0 10px;
+  overflow: hidden;
 }
 
 .testimonial-card-center {
-  flex: 0 0 calc(100% - 20px); 
-  margin: 0 10px; 
-  overflow: hidden; 
+  flex: 0 0 calc(100% - 20px);
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #1a202c;
+  color: white;
+  padding: 1rem;
+  transition: right 0.3s ease-in-out;
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  #sidebar {
+    display: block;
+    right: -200px;
+  }
 }
